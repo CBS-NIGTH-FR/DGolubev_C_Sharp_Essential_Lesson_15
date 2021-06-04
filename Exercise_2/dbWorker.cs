@@ -25,6 +25,7 @@ namespace Exercise_2
             {
                 Console.WriteLine(ex.Message);
                 AddWorkers();
+                
             }
             if (counter < workers.Length)
             {
@@ -37,6 +38,7 @@ namespace Exercise_2
                 Console.WriteLine($"Вы ввели максимальное число сотрудников - {counter}");
                 Console.WriteLine();
             }
+
             return workers;
         }
         public void ReadAll()
